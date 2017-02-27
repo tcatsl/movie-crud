@@ -1,0 +1,36 @@
+{
+  "movies": [
+    {
+      "id": 2,
+      "name": "Troll 2",
+      "rating": "0/5",
+      "posterurl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Troll_2_poster.jpg",
+      "year": "1990",
+      "director": "Claudio Fragasso"
+    },
+    {
+      "name": "Swiss Army Man",
+      "year": "2016",
+      "director": "Daniel Kwan, Daniel Scheinert",
+      "rating": "2/5",
+      "posterurl": "http://t2.gstatic.com/images?q=tbn:ANd9GcTJteammVl0hISgc0BL9tXTpPstalRtjhc9PmkOC64RPqLA_8D-",
+      "id": 1488169079882
+    },
+    {
+      "name": "Dr. Strangelove",
+      "year": "1964",
+      "director": "Stanley Kubrik",
+      "rating": "5/5",
+      "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTkxYjUxNDYtZGY0My00NTc2LThiZmYtNmNmNmU0NGVkZWYwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+      "id": 1488169208827
+    },
+    {
+      "name": "Aachi & Sispak",
+      "year": "2006",
+      "director": "Jo Beom-jin",
+      "rating": "4/5",
+      "posterurl": "http://www.gstatic.com/tv/thumb/dvdboxart/173494/p173494_d_v8_aa.jpg",
+      "id": 1488170923681
+    }
+  ]
+}

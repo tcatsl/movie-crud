@@ -1,0 +1,35 @@
+.info-cont {
+}
+.info-cont li{
+  display: flex;
+  justify-content: flex-end;
+  width: 700px
+}
+li p, li a , li button{
+  flex: 1;
+  margin-left: 20px
+}
+a {
+  display: inline-flex;
+}
+footer {
+  position: fixed;
+  bottom:0px;
+  background: darkgrey;
+  border-top: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+a, button{
+  color: black;
+  border: 2px solid black;
+  background: darkgrey
+}
+li {
+  margin: 20px
+}
+#editMovie {
+  margin-bottom: 35px;
+  display: inline-block;
+  overflow-y: scroll;
+}
