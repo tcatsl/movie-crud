@@ -24,10 +24,8 @@ $(document).ready(function(){
         // Do something with the result
         console.log(result)
         par.remove()
-    }
-
-});
-
+        }
+      });
     })
   })
 })

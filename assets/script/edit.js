@@ -1,7 +1,7 @@
 var num
 $(document).ready(function(){
   var url = window.location.pathname
- var re = /\d+$/g
+  var re = /\d+$/g
   num = url.match(re)[0]
   console.log(num)
   $.get("/movies/"+ num)
@@ -26,7 +26,6 @@ $('#send').click(function(e){
     "rating": $('#rating').val(),
     "posterurl": $('#posterurl').val()
   }
-  console.log(movie)
   setTimeout(function(){
     $.ajax({
       url: '/movies/'+num,

@@ -7,7 +7,6 @@ $('#send').click(function(e){
     "rating": $('#rating').val(),
     "posterurl": $('#posterurl').val()
   }
-  console.log(movie)
   setTimeout(function(){
     $.ajax({
       url: '/newmovie',
